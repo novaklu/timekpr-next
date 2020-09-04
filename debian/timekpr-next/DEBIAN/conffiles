@@ -1,0 +1,5 @@
+/etc/dbus-1/system.d/timekpr.conf
+/etc/logrotate.d/timekpr
+/etc/systemd/system/timekpr.service
+/etc/timekpr/timekpr.conf
+/etc/xdg/autostart/timekpr-client.desktop

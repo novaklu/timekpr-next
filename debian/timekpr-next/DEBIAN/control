@@ -1,0 +1,22 @@
+Package: timekpr-next
+Version: 0.3.7~ppa1~ubuntu1
+Architecture: amd64
+Maintainer: Eduards Bezverhijs <edzis@inbox.lv>
+Installed-Size: 1300
+Depends: lxpolkit | lxqt-policykit | mate-polkit | policykit-1-gnome | polkit-kde-agent-1 | polkit-1-auth-agent, python3 (>= 3.2), python3-gi, libgtk-3-0 (>= 3.4), python3-dbus, gir1.2-gtk-3.0, systemd | systemd-shim, python3-psutil (>= 3.4), gir1.2-appindicator3-0.1
+Recommends: python-appindicator
+Suggests: espeak, python3-espeak
+Conflicts: timekpr-next-beta
+Replaces: timekpr, timekpr-beta, timekpr-next-beta
+Provides: timekpr
+Section: admin
+Priority: extra
+Homepage: http://launchpad.net/timekpr-next/
+Description: Keep control of computer usage
+ This program will track and control the computer usage of
+ your user accounts. You can limit their daily usage based
+ on a timed access duration and configure periods of day
+ when they can or cannot log in.
+ .
+ Any bugs should be reported to our bug tracker:
+ https://bugs.launchpad.net/timekpr-next/+bugs
